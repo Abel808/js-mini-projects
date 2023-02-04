@@ -26,5 +26,11 @@ body{
    
     transform-origin: 100%;
     transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.01, 3.64, 0.25, 1);
 
+}
+
+#minutes{
+    border:2px solid pink;
 }
