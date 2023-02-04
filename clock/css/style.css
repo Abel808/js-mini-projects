@@ -32,5 +32,10 @@ body{
 }
 
 #minutes{
-    border:2px solid pink;
+    border:2px solid rgb(38, 160, 103);
+}
+
+
+#hours{
+    border:2px solid rgb(209, 153, 163);
 }
