@@ -18,11 +18,11 @@ body{
 
 .clock-needle{
     position: relative;
-    top:50%;
-   
-    border: 2px solid;
+    top:45%;
+    left: 10%;
+    border: 1px solid;
     width: 200px;
-    margin-left: 25px;
+   
    
     transform-origin: 100%;
     transform: rotate(90deg);
@@ -31,11 +31,24 @@ body{
 
 }
 
+.center{
+    position: relative;
+    top: 50%;
+    left: 48%;
+    z-index: 1;
+
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-color: bisque;
+}
+
 #minutes{
-    border:2px solid rgb(38, 160, 103);
+    border:3px solid rgb(38, 160, 103);
 }
 
 
 #hours{
-    border:2px solid rgb(209, 153, 163);
+    border:5px solid rgb(209, 153, 163);
 }
+
