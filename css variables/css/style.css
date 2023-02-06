@@ -1,0 +1,16 @@
+:root {
+    --spacing: 10px;
+    --color: pink;
+    --blur: 0px;
+}
+
+
+.container{
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+    background-color: var(--color);
+}
+
+h1{
+    color: var(--color);
+}
